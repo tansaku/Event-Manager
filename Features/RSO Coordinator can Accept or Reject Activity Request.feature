@@ -1,4 +1,5 @@
 Feature: RSO Coordinator can Accept or Reject Activity Request
+  As a Club Member  So that I can: get approval for events  I want to: Submit Activity Request Form (ARF)
 
   Scenario: RSO coordinator accepts ARF form
 
