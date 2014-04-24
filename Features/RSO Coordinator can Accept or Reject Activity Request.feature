@@ -1,7 +1,7 @@
 Feature: RSO Coordinator can Accept or Reject Activity Request
-  As a Club Member
-  So that I can: get approval for events
-  I want to: Submit Activity Request Form (ARF)
+  As a RSO Coordinator
+  So that I can: make sure student organization follows all the rules
+  I want to: Accept or reject the submitted ARF form
 
   Scenario: RSO coordinator accepts ARF form
 
@@ -15,4 +15,3 @@ Feature: RSO Coordinator can Accept or Reject Activity Request
     When RSO coordinator presses reject
     Then RSO coordinator should see "Activity reject"
 
-    # stakeholder in feature is not the stakeholder in scenarios
